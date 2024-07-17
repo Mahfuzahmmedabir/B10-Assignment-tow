@@ -1,8 +1,147 @@
 .inter-fonts {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
+  font-variation-settings: 'slnt' 0;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* shear style */
+
+.display-flex {
+  display: flex;
+}
+.section-decsription {
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 10px;
+
+  font-size: 16px;
+  font-weight: 400;
+}
+
+header {
+  width: 1400px;
+  height: 680px;
+  margin: 0 auto;
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 50) 100%
+  );
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-manu {
+  list-style-type: none;
+  border: 1px solid #ddd;
+  align-items: center;
+  border-radius: 39px;
+  width: 485px;
+  height: 42px;
+  margin-top: 60px;
+}
+.Fitness {
+  color: rgb(230, 83, 60);
+  font-weight: 800;
+  font-size: 2rem;
+  margin-top: 60px;
+}
+.main-manu li {
+  padding: 40px;
+}
+.main-manu,
+a {
+  color: #ffff;
+  font-size: 18px;
+}
+#home {
+  padding: 10px 20px;
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+
+  color: aliceblue;
+}
+/* mid-header */
+
+.mid-header {
+  display: flex;
+ 
+}
+
+.mid-section {
+  width: 700px;
+  /* margin-top: 190px 190px 234px 743px; */
+  margin: 80px 180px;
+ 
+}
+.get-body {
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: 4.8rem;
+}
+.frist-imges {
+  /* position: relative; */
+  margin-left:-100px;
+}
+.box-one {
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  top: -450px;
+  left: 210px;
+  width: 150px;
+  padding: 20px;
+  
+}
+.title-number{
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 2rem;
+  
+}
+.box-tow{
+   position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  top: -250px;
+  right: 120px;
+  width: 160px;
+  padding: 20px;
+
+}
+
+.italic {
+}
+.p-btn {
+  font-family: 'Inter', sans-serif;
+  margin-top: 50px;
+  padding: 15px 40px;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+}
+.s-btn {
+  font-family: 'Inter', sans-serif;
+  margin-top: 50px;
+  padding: 15px 40px;
+  color: #ffffff;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 42px;
+  background: none;
+  margin-left: 10px;
 }
