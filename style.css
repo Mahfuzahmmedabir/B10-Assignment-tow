@@ -15,25 +15,35 @@
 .display-flex {
   display: flex;
 }
+.display-none {
+  display: none;
+}
 .section-decsription {
   color: rgba(255, 255, 255, 0.5);
   margin-top: 10px;
   font-size: 16px;
   font-weight: 400;
+  padding-top: 10px;
+  line-height: 25px;
 }
-nav {
+.section-decsription-center {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 10px;
 }
+
+/* header section start */
 
 header {
-  max-width: 1440px;
-  height: 680px;
+  width: 1440px;
+  height: 750px;
   margin: 0 auto;
-
   background: linear-gradient(
     10deg,
     rgb(19, 17, 17),
     rgba(119, 119, 119, 50) 200%
   );
+
   /* background-color: black; */
   /* background-image: url(images/Images\ 2.png); */
   /* background-repeat: no-repeat;
@@ -47,6 +57,14 @@ header {
   justify-content: space-around;
   align-items: center;
 }
+.Fitness {
+  color: rgb(230, 83, 60);
+  font-weight: 800;
+  font-size: 2rem;
+  margin-top: 60px;
+}
+.italic {
+}
 .main-manu {
   list-style-type: none;
   border: 1px solid #ddd;
@@ -56,11 +74,11 @@ header {
   height: 42px;
   margin-top: 60px;
 }
-.Fitness {
-  color: rgb(230, 83, 60);
-  font-weight: 800;
-  font-size: 2rem;
-  margin-top: 60px;
+#home {
+  padding: 10px 20px;
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+  color: aliceblue;
 }
 .main-manu li {
   padding: 40px;
@@ -70,18 +88,12 @@ a {
   color: #ffff;
   font-size: 18px;
 }
-#home {
-  padding: 10px 20px;
-  border-radius: 46px;
-  background: rgb(230, 83, 60);
-  color: aliceblue;
-}
+
 /* mid-header */
 
 .mid-header {
   display: flex;
 }
-
 .mid-section {
   width: 700px;
   margin: 80px 180px;
@@ -91,51 +103,6 @@ a {
   font-weight: 900;
   font-size: 4.8rem;
 }
-.frist-imges {
-  /* position: relative; */
-  margin-left: -200px;
-}
-.box-one {
-  position: relative;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  backdrop-filter: blur(20px);
-  background: rgba(48, 48, 48, 0.54);
-  top: -500px;
-  left: 210px;
-  width: 160px;
-  padding: 20px;
-}
-.title-number {
-  color: #ffffff;
-  font-weight: 900;
-  font-size: 2rem;
-}
-.box-tow {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  backdrop-filter: blur(20px);
-  background: rgba(48, 48, 48, 0.54);
-  top: -250px;
-  right: 150px;
-  width: 170px;
-  padding: 20px;
-}
-
-.dot {
-  margin-right: 20px;
-  width: 40px;
-  height: 40px;
-  background: rgb(230, 83, 60);
-  border-radius: 50px;
-}
-.italic {
-}
-
 .p-btn {
   font-family: 'Inter', sans-serif;
   margin-top: 50px;
@@ -157,39 +124,77 @@ a {
   background: none;
   margin-left: 10px;
 }
-
+.frist-imges {
+  margin-left: -200px;
+}
+.blur-box-one {
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  top: -500px;
+  left: 210px;
+  width: 160px;
+  padding: 20px;
+}
+.blur-box-tow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  top: -250px;
+  right: 150px;
+  width: 170px;
+  padding: 20px;
+}
+.blur-text {
+  color: rgba(255, 255, 255, 0.5);
+}
+.title-number {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 2rem;
+}
+.dot {
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+  background: rgb(230, 83, 60);
+  border-radius: 50px;
+}
 /* main section start */
 .bg-color {
   background-color: black;
   max-width: 1440px;
+  height: 2800px;
   margin: auto;
   position: relative;
+  /* height: 1000px; */
 }
 .habits-change {
   margin: 0 auto;
   width: 1000px;
   padding-top: 100px;
 }
-.for-margin-top {
-  width: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-}
+
 .habits-title {
   text-align: center;
   color: rgb(255, 255, 255);
   font-size: 2.7rem;
 }
-
-.section-decsription {
+.section-decsription1 {
   text-align: center;
+  color: rgba(255, 255, 255, 0.5);
 }
 .img-continer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 50px;
   margin-top: 100px;
   align-items: center;
 }
@@ -203,36 +208,364 @@ img {
   text-align: center;
   padding-top: 20px;
 }
+/*  Run an Extra Mile Easily  */
+.run-section {
+  background-color: #222222;
+  max-width: 1060px;
+  height: 320px;
+  margin: 0 auto;
+  border-radius: 18px;
+}
+.run-extra {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+.title-decsription {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-divition img {
+  width: 366px;
+  padding: 25px;
+  border-radius: 30px;
+  margin-left: auto;
+}
+
+/* bmi calculator section  */
+
+.calculator {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.cla-title {
+  /* text-align: center; */
+  color: rgb(255, 255, 255);
+  font-size: 2.7rem;
+}
+
+.calculator-chart-and-form {
+  display: flex;
+  background-color: #222222;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+/* table start */
+.calc-table {
+  margin: 50px 150px;
+}
+.bmi-title {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+table,
+tr,
+th,
+td {
+  border: 1px solid rgb(81, 79, 79);
+  border-collapse: collapse;
+  padding: 15px 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+th {
+  color: rgb(255, 255, 255);
+}
+td {
+  padding: 18px 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+/* form section */
+.calc-form {
+  margin-top: 50px;
+  max-width: 750px;
+}
+.bmi-title {
+  padding-bottom: 20px;
+}
+.section-decsription2 {
+  color: rgba(255, 255, 255, 0.5);
+}
+form {
+  margin-top: 30px;
+}
+input {
+  width: 250px;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.input1 {
+  width: 95%;
+}
+.t-btn {
+  font-family: 'Inter', sans-serif;
+  margin-top: 50px;
+  padding: 15px 40px;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  margin-top: 30px;
+}
+/*  healthy-food-secton */
+.team-start {
+  margin: 0 auto;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+.team-title {
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.team-description {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+.img-cont {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+}
+.img-content {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  background-color: #222222;
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 18px;
+}
+.trainer-name {
+  position: relative;
+  top: -60px;
+  left: 40px;
+  color: #ddd;
+}
+.last-title {
+  color: rgb(255, 255, 255);
+}
+.trainer-text-color {
+  color: rgba(255, 255, 255, 0.5);
+}
+/* footer section */
+footer {
+  margin-top: 100px;
+  background-color: #222222;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.extarnal-link {
+  width: 1100px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+.fitness {
+  width: 450px;
+}
+.footer-link-one {
+  width: 300px;
+  margin-top: 70px;
+}
+.footer-link-tow {
+  margin-top: 70px;
+}
+.footer-link,
+li {
+  padding-top: 20px;
+  list-style-type: none;
+}
+.footer-link,
+li a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  text-decoration: none;
+}
+.footer-link a:hover {
+  text-decoration: underline;
+}
+hr {
+  width: 67rem;
+  margin: 0 auto;
+  padding-top: 40px;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+}
+.last-p {
+  text-align: center;
+  padding: 40px;
+  justify-content: center;
+  display: flex;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+}
 /* design for responsive */
 @media screen and (max-width: 576px) {
-  .header {
-    /* width: 900px; */
-    /* height: auto; */
-    margin: 0 auto;
+  header {
+    width: auto;
+    height: 1260px;
   }
   .navbar {
     flex-direction: column;
+  }
+  .main-manu {
     display: none;
   }
   .mid-header {
     flex-direction: column;
+  }
+  .mid-section {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .section-decsription {
+    width: 300px;
+    margin-left: 20px;
+  }
+  .get-body {
+    font-size: 2.6rem;
+    margin-left: 20px;
+    padding-top: 50px;
+    font-weight: 900;
+  }
+  .Fitness {
+    margin-right: 250px;
+    /* width: 80%; */
+  }
+  /* frist img section */
+  .frist-imges img {
+    margin-left: 200px;
+    width: 60%;
+    height: 70%;
+    margin-top: 100px;
+  }
+  .blur-box-one {
+    top: -600px;
+    padding: 10px;
+    left: 370px;
+  }
+  .blur-box-tow {
+    top: -300px;
+    right: -220px;
+    width: 170px;
+    padding: 10px;
+  }
+  /* Main section start */
+  .img-continer {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .habits-change {
+    width: 100%;
+    padding: 0;
+  }
+  .habits-title {
+    font-size: 2.5rem;
+  }
+  /*  Run an Extra Mile Easily */
+  .run-section {
+    background-color: #222222;
+    max-width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 18px;
+  }
+  .run-extra {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  .img-divition img {
+    width: 320px;
+    padding: 2px;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  /* bmi calculator section */
+  .calculator-chart-and-form {
+    flex-direction: column;
+    margin-top: 50px;
     width: 100%;
   }
-  .for-margin-top {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    right: 300px;
-    
-    width: 200px;
+  .Bmi-respo {
+    width: 100%;
   }
-  .img-continer {
-    display: flex;
-    flex-direction: column;
+  form {
+    width: 90%;
+  }
+  .cla-title {
+    margin-top: -50px;
+    margin-left: 20px;
+  }
+  .calc-table {
+    margin: 10px;
+    margin-left: 20px;
+  }
+  .calc-form {
+    width: 100%;
+    margin-left: 10px;
+  }
+  input {
+    width: 40%;
+  }
+  .input1 {
+    width: 90%;
+  }
+  /* healthy-food-secton */
+  .bg-color {
+    background-color: black;
+    max-width: 1440px;
+    height: 335rem;
+    margin: auto;
     position: relative;
-    right: 300px;
+  }
+  .img-content {
+    grid-template-columns: repeat(1, 6fr);
+    width: 90%;
+    border-radius: 8px;
+    justify-items: center;
+  }
+  .img-cont {
+    width: 250px;
+    height: 250px;
+  }
+  /* footer section */
+  footer {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .extarnal-link {
+    width: 90%;
+    flex-direction: column;
+    margin-left: 15px;
+  }
+  .Fitness {
+    margin-left: 20px;
+  }
+  .fitness {
+    width: 90%;
+  }
+  .footer-link-one,
+  .tow {
+    margin-left: 20px;
+  }
+  hr {
+    width: 90%;
   }
 }
