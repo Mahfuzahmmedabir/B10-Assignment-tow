@@ -38,20 +38,19 @@ header {
   width: 1440px;
   height: 750px;
   margin: 0 auto;
-  background: linear-gradient(
+  /* background: linear-gradient(
     10deg,
     rgb(19, 17, 17),
-    rgba(119, 119, 119, 50) 200%
+    rgba(119, 119, 119, 100) 400%
+  ); */
+
+   background: linear-gradient(
+    10deg,
+    rgb(19, 17, 17),
+    rgba(119, 119, 119, 100) 500%
   );
 
-  /* background-color: black; */
-  /* background-image: url(images/Images\ 2.png); */
-  /* background-repeat: no-repeat;
-  background-size: 300px;
-  background-position: right 200px;
-  background-blend-mode: overlay; */
 }
-
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -63,7 +62,11 @@ header {
   font-size: 2rem;
   margin-top: 60px;
 }
+.var-icon {
+  display: none;
+}
 .italic {
+
 }
 .main-manu {
   list-style-type: none;
@@ -88,9 +91,7 @@ a {
   color: #ffff;
   font-size: 18px;
 }
-
 /* mid-header */
-
 .mid-header {
   display: flex;
 }
@@ -110,6 +111,7 @@ a {
   color: #ffffff;
   font-size: 16px;
   border: none;
+  cursor: pointer;
   border-radius: 42px;
   background: rgb(230, 83, 60);
 }
@@ -119,6 +121,7 @@ a {
   padding: 15px 40px;
   color: #ffffff;
   font-size: 16px;
+   cursor: pointer;
   border: 2px solid #ddd;
   border-radius: 42px;
   background: none;
@@ -174,7 +177,6 @@ a {
   height: 2800px;
   margin: auto;
   position: relative;
-  /* height: 1000px; */
 }
 .habits-change {
   margin: 0 auto;
@@ -235,9 +237,7 @@ img {
   border-radius: 30px;
   margin-left: auto;
 }
-
 /* bmi calculator section  */
-
 .calculator {
   max-width: 800px;
   margin: 0 auto;
@@ -248,14 +248,12 @@ img {
   color: rgb(255, 255, 255);
   font-size: 2.7rem;
 }
-
 .calculator-chart-and-form {
   display: flex;
   background-color: #222222;
   justify-content: space-evenly;
   margin-top: 100px;
 }
-
 /* table start */
 .calc-table {
   margin: 50px 150px;
@@ -302,6 +300,8 @@ input {
   border: none;
   border-radius: 5px;
   font-size: 18px;
+  background-color: #383333;
+   color: rgb(255, 255, 255);
 }
 .input1 {
   width: 95%;
@@ -412,6 +412,7 @@ hr {
   color: rgba(255, 255, 255, 0.5);
   font-size: 20px;
 }
+
 /* design for responsive */
 @media screen and (max-width: 576px) {
   header {
@@ -488,11 +489,18 @@ hr {
   }
   .run-extra {
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     height: auto;
   }
+  .section-decsription {
+    width: 80%;
+  }
+  .title-decsription {
+    width: 100%;
+  }
   .img-divition img {
-    width: 320px;
+    width: 90%;
+    margin: 20px;
     padding: 2px;
     margin-top: 30px;
     border-radius: 10px;
@@ -503,8 +511,23 @@ hr {
     margin-top: 50px;
     width: 100%;
   }
+  .section-decsription {
+    width: 90%;
+  }
+  .var-icon {
+    display: inline;
+    color: #ddd;
+    cursor: pointer;
+    font-size: 28px;
+    position: relative;
+    left: 150px;
+    top: -33px;
+  }
+  /* br{
+    display: none;
+  } */
   .Bmi-respo {
-    width: 100%;
+    width: 80%;
   }
   form {
     width: 90%;
@@ -519,7 +542,7 @@ hr {
   }
   .calc-form {
     width: 100%;
-    margin-left: 10px;
+    text-align: center;
   }
   input {
     width: 40%;
