@@ -69,6 +69,7 @@ header {
   font-style: italic;
   font-weight: 100;
   font-family: initial;
+ 
 }
 
 .main-manu {
@@ -304,11 +305,11 @@ input {
   border: none;
   border-radius: 5px;
   font-size: 18px;
-   color: rgb(255, 255, 255,0.8);
-   background-color: rgba(255, 255, 255, 0.1);
+  color: rgb(255, 255, 255,0.8);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .input1 {
-  width: 95%;
+  width: 90%;
 }
 .t-btn {
   font-family: 'Inter', sans-serif;
