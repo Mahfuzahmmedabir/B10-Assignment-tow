@@ -65,12 +65,16 @@ header {
 .var-icon {
   display: none;
 }
-.italic {
-
+#italic {
+  font-style: italic;
+  font-weight: 100;
+  font-family: initial;
 }
+
 .main-manu {
   list-style-type: none;
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd; */
+  border: 2px solid rgba(255, 255, 255, 0.1);
   align-items: center;
   border-radius: 39px;
   width: 485px;
