@@ -66,9 +66,9 @@ header {
   display: none;
 }
 #italic {
-  font-style: italic;
-  font-weight: 100;
-  font-family: initial;
+   font-size: 5rem;
+  font-weight: 400;
+  font-family: 'Miama', sans-serif;
  
 }
 
@@ -83,6 +83,7 @@ header {
   margin-top: 60px;
 }
 #home {
+  
   padding: 10px 20px;
   border-radius: 46px;
   background: rgb(230, 83, 60);
@@ -108,6 +109,7 @@ a {
   color: rgb(255, 255, 255);
   font-weight: 900;
   font-size: 4.8rem;
+  line-height: 80px;
 }
 .p-btn {
   font-family: 'Inter', sans-serif;
@@ -219,13 +221,14 @@ img {
 .run-section {
   background-color: #222222;
   max-width: 1060px;
-  height: 320px;
+  height: 350px;
   margin: 0 auto;
   border-radius: 18px;
 }
 .run-extra {
   display: flex;
   margin-top: 100px;
+  /* height: 500px; */
   justify-content: space-between;
 }
 .title-decsription {
@@ -419,181 +422,3 @@ hr {
 }
 
 /* design for responsive */
-@media screen and (max-width: 576px) {
-  header {
-    width: auto;
-    height: 1260px;
-  }
-  .navbar {
-    flex-direction: column;
-  }
-  .main-manu {
-    display: none;
-  }
-  .mid-header {
-    flex-direction: column;
-  }
-  .mid-section {
-    width: 100%;
-    margin: 0 auto;
-  }
-  .section-decsription {
-    width: 300px;
-    margin-left: 20px;
-  }
-  .get-body {
-    font-size: 2.6rem;
-    margin-left: 20px;
-    padding-top: 50px;
-    font-weight: 900;
-  }
-  .Fitness {
-    margin-right: 250px;
-    /* width: 80%; */
-  }
-  /* frist img section */
-  .frist-imges img {
-    margin-left: 200px;
-    width: 60%;
-    height: 70%;
-    margin-top: 100px;
-  }
-  .blur-box-one {
-    top: -600px;
-    padding: 10px;
-    left: 370px;
-  }
-  .blur-box-tow {
-    top: -300px;
-    right: -220px;
-    width: 170px;
-    padding: 10px;
-  }
-  /* Main section start */
-  .img-continer {
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    margin-top: 50px;
-  }
-  .habits-change {
-    width: 100%;
-    padding: 0;
-  }
-  .habits-title {
-    font-size: 2.5rem;
-  }
-  /*  Run an Extra Mile Easily */
-  .run-section {
-    background-color: #222222;
-    max-width: 100%;
-    height: 600px;
-    margin: 0 auto;
-    border-radius: 18px;
-  }
-  .run-extra {
-    flex-direction: column;
-    width: 90%;
-    height: auto;
-  }
-  .section-decsription {
-    width: 80%;
-  }
-  .title-decsription {
-    width: 100%;
-  }
-  .img-divition img {
-    width: 90%;
-    margin: 20px;
-    padding: 2px;
-    margin-top: 30px;
-    border-radius: 10px;
-  }
-  /* bmi calculator section */
-  .calculator-chart-and-form {
-    flex-direction: column;
-    margin-top: 50px;
-    width: 100%;
-  }
-  .section-decsription {
-    width: 90%;
-  }
-  .var-icon {
-    display: inline;
-    color: #ddd;
-    cursor: pointer;
-    font-size: 28px;
-    position: relative;
-    left: 150px;
-    top: -33px;
-  }
-  /* br{
-    display: none;
-  } */
-  .Bmi-respo {
-    width: 80%;
-  }
-  form {
-    width: 90%;
-  }
-  .cla-title {
-    margin-top: -50px;
-    margin-left: 20px;
-  }
-  .calc-table {
-    margin: 10px;
-    margin-left: 20px;
-  }
-  .calc-form {
-    width: 100%;
-    text-align: center;
-  }
-  input {
-    width: 40%;
-  }
-  .input1 {
-    width: 90%;
-  }
-  /* healthy-food-secton */
-  .bg-color {
-    background-color: black;
-    max-width: 1440px;
-    height: 335rem;
-    margin: auto;
-    position: relative;
-  }
-  .img-content {
-    grid-template-columns: repeat(1, 6fr);
-    width: 90%;
-    border-radius: 8px;
-    justify-items: center;
-  }
-  .img-cont {
-    width: 250px;
-    height: 250px;
-  }
-  /* footer section */
-  footer {
-    width: 100%;
-    margin: 0 auto;
-  }
-  .extarnal-link {
-    width: 90%;
-    flex-direction: column;
-    margin-left: 15px;
-  }
-  .Fitness {
-    margin-left: 20px;
-  }
-  .fitness {
-    width: 90%;
-  }
-  .footer-link-one,
-  .tow {
-    margin-left: 20px;
-  }
-  hr {
-    width: 90%;
-  }
-}
