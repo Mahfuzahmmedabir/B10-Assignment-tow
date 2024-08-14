@@ -324,7 +324,7 @@ input {
   font-size: 18px;
   color: rgb(255, 255, 255, 0.8);
   background-color: rgba(255, 255, 255, 0.1);
-  width: 93%;
+  width: 95%;
 }
 .sex{
   padding: 10px;
@@ -334,7 +334,7 @@ input {
   font-size: 18px;
   color: rgb(255, 255, 255, 0.8);
   background-color: rgba(255, 255, 255, 0.1);
-  width:45%;
+  width:46%;
 }
 .t-btn {
   font-family: 'Inter', sans-serif;

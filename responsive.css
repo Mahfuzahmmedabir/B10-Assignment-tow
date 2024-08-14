@@ -230,9 +230,11 @@
   }
   .Fitness {
     margin-left: 20px;
+    font-size: 4rem;
   }
   .fitness {
     width: 90%;
+    
   }
   .footer-link-one,
   .tow {
