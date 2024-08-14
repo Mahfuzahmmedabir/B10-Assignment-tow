@@ -407,7 +407,6 @@ footer {
   width: 450px;
 }
  .Fitness {
-    margin-left: 20px;
     font-size: 4rem;
   }
 .footer-link-one {
@@ -446,4 +445,5 @@ hr {
   display: flex;
   color: rgba(255, 255, 255, 0.5);
   font-size: 20px;
+
 }
