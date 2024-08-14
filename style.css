@@ -25,7 +25,6 @@
   font-weight: 400;
   padding-top: 10px;
   line-height: 25px;
-
 }
 .section-decsription-center {
   width: 100%;
@@ -44,7 +43,6 @@ header {
     rgb(19, 17, 17),
     rgba(119, 119, 119, 100) 400%
   ); */
-
   background: linear-gradient(
     10deg,
     rgb(19, 17, 17),
@@ -62,7 +60,7 @@ header {
   font-size: 2rem;
   margin-top: 60px;
 }
-.var-icon {
+.bars-icon {
   display: none;
 }
 #italic {
@@ -226,7 +224,7 @@ img {
 .run-extra {
   display: flex;
   margin-top: 100px;
-  justify-content: space-between;
+  justify-content:space-evenly;
 }
 .title-decsription {
   width:80%;
@@ -244,6 +242,7 @@ img {
   padding: 25px;
   border-radius: 30px;
   margin-left: auto;
+  margin-top: 30px;
 }
 .for-width{
   width: 40%;
@@ -256,7 +255,7 @@ img {
 
 }
 .cla-title {
-  /* text-align: center; */
+  
  
   color: rgb(255, 255, 255);
   font-size: 2.6rem;
@@ -302,12 +301,11 @@ td {
 }
 .section-decsription2 {
   color: rgba(255, 255, 255, 0.5);
-  line-height: 30px;
+  line-height: 25px;
 }
 form {
   width: 85%;
   margin-top: 30px;
-  
 }
 input {
   padding: 10px;
@@ -318,11 +316,26 @@ input {
   color: rgb(255, 255, 255, 0.8);
   background-color: rgba(255, 255, 255, 0.1);
 }
-
-.input1 {
-  width:92% ;
+#activity{
+   padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: rgb(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 93%;
 }
-
+.sex{
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: rgb(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.1);
+  width:45%;
+}
 .t-btn {
   font-family: 'Inter', sans-serif;
   margin-top: 50px;

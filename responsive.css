@@ -1,6 +1,10 @@
 /*  */
 
 @media screen and (max-width: 576px) {
+   /* br tag no brack for mobile */
+    .no-brack-for-mobile {
+    display: none;
+  }
   header {
     width: auto;
     height: 1260px;
@@ -11,6 +15,15 @@
   .Fitness {
     margin-right: 250px;
     font-style: italic;
+  }
+   .bars-icon {
+    display: inline;
+    color: #ddd;
+    cursor: pointer;
+    font-size: 25px;
+    position: relative;
+    left: 150px;
+    top: -33px;
   }
   .main-manu {
     display: none;
@@ -25,9 +38,7 @@
   .section-decsription {
     margin: 30px 20px;
   }
-  .no-brack {
-    display: none;
-  }
+ 
   .get-body {
     font-size: 2.3rem;
     margin-left: 20px;
@@ -124,7 +135,7 @@
   }
 
   .section-decsription {
-    line-height: 28px;
+    line-height: 25px;
     margin: 0;
   }
   .for-width {
@@ -153,7 +164,6 @@
   }
   .calculator {
     width: 90%;
-    
   }
   form {
     grid-column: auto;
@@ -161,16 +171,7 @@
   input {
     width: 100px;
   }
-  .var-icon {
-    display: inline;
-    color: #ddd;
-    cursor: pointer;
-    font-size: 28px;
-    position: relative;
-    left: 150px;
-    top: -33px;
-  }
-
+ 
   .cla-title {
     margin-top: -50px;
     font-size: 2rem;
@@ -183,39 +184,30 @@
     font-size: 1.2rem;
     padding-top: 10px;
   }
-
   .Bmi-respo {
     width: 80%;
     text-align: left;
-    margin:20px ;
+    margin: 20px;
   }
-
   .calc-form {
     width: 100%;
     text-align: center;
     margin-top: -0px;
-    
   }
-
   form {
     width: 100%;
-    
   }
-   input {
-   width: 40%;
-  
+  input {
+    width: 40%;
   }
   .input1 {
     width: 90%;
   }
-  .t-btn{
+  .t-btn {
     width: 50%;
-    margin-right:180px;
-    
+    margin-right: 180px;
   }
-
   /* Meet-our-secton */
-
   .img-content {
     grid-template-columns: repeat(1, 6fr);
     width: 90%;
