@@ -406,6 +406,10 @@ footer {
 .fitness {
   width: 450px;
 }
+ .Fitness {
+    margin-left: 20px;
+    font-size: 4rem;
+  }
 .footer-link-one {
   width: 300px;
   margin-top: 70px;
